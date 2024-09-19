@@ -5,7 +5,7 @@ let COUNT_BTN = true,
 COLOR_BTN = 0;
 
 function count() {
-    for(let i = 0; i < 256; i++) {
+    for(let i = 0; i < 257; i++) {
         if(i == 0) {
             count_container.innerHTML += `${(i+1).toString()}`;
         } else {
